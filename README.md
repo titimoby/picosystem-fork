@@ -64,6 +64,7 @@ git clone git@github.com:pimoroni/picosystem.git
 3. Create a build folder and build the examples
 ```
 mkdir build
+cd build
 cmake ..
 make -j8
 ```

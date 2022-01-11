@@ -3,7 +3,7 @@ image:
 
 tasks:
   - command: |
-      export PICO_SDK_PATH=$GITPOD_REPO_ROOT/pico-sdk
+      export PICO_SDK_PATH=$HOME/pico-sdk
       cp $PICO_SDK_PATH/external/pico_sdk_import.cmake .
 
 github:
